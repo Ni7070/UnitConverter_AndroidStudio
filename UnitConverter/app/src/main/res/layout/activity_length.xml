@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/fromLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:text="From"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerLengthFrom"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textViewResultLength"
+        android:layout_alignTop="@+id/fromLength"
+        android:background="#f2f1e9"
+        android:layout_alignLeft="@+id/textViewResultLength" />
+
+    <TextView
+        android:id="@+id/toLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/fromLength"
+        android:layout_marginTop="173dp"
+        android:text="To"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/fromLength" />
+
+    <Spinner
+        android:id="@+id/spinnerLengthTo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/toLength"
+        android:layout_alignLeft="@+id/spinnerLengthFrom"
+        android:layout_alignStart="@+id/spinnerLengthFrom"
+        android:layout_marginBottom="-19dp"
+        android:background="#f2f1e9" />
+
+    <Button
+        android:id="@+id/btnConvertLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="143dp"
+        android:text="Convert" />
+
+    <EditText
+        android:id="@+id/editTextFromLength"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textViewResultLength"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="#d4790a"
+        android:gravity="center"
+        android:text="Result="
+        android:textColor="#fff4f7"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">UnitConverter</string>
+    <string-array name="forLength">
+        <item>Millimetre</item>
+        <item>Centimetre</item>
+        <item>Metre</item>
+        <item>Kilometre</item>
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Mile</item>
+        <item>Nautical Mile</item>
+        <item>Mil</item>
+
+    </string-array>
+
+
+    <string-array name="forArea">
+        <item>Acre</item>
+        <item>Are</item>
+        <item>Hectare</item>
+        <item>Square Centimetre</item>
+        <item>Square Foot</item>
+        <item>Square inch</item>
+        <item>Square Metre</item>
+
+    </string-array>
+
+    <string-array name="forTemperature">
+        <item>Celsius</item>
+        <item>Farenheit</item>
+        <item>Kelvin</item>
+
+    </string-array>
+
+    <string-array name="forVolume">
+        <item>Gallon(US)</item>
+        <item>Gallon(UK)</item>
+        <item>Litre</item>
+        <item>Millilitre</item>
+        <item>Cubic Centimetre(cc)</item>
+        <item>Cubic Metre</item>
+        <item>Cubic Inch</item>
+        <item>Cubic Foot</item>
+
+    </string-array>
+
+
+    <string-array name="forMass">
+        <item>Ton</item>
+        <item>Ton(UK)</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+        <item>Kg</item>
+        <item>Gram</item>
+
+    </string-array>
+    <string-array name="forData">
+        <item>Bit</item>
+        <item>Byte(B)</item>
+        <item>Kilobyte(KB)</item>
+        <item>Megabyte(MB)</item>
+        <item>Gigabyte(GB)</item>
+        <item>Terabyte(TB)</item>
+
+    </string-array>
+
+
+</resources>
